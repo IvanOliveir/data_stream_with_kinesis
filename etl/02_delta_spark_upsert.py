@@ -25,7 +25,7 @@ from delta.tables import *
 logger.info("Produzindo novos dados...")
 enemnovo = (
     spark.read.format("delta")
-    .load("s3://lakehouse-test/staging-zone/enem")
+    .load("s3://lakehouse-test-tf/staging-zone/enem")
 )
 
 # Define algumas inscricoes (chaves) que serao alteradas
