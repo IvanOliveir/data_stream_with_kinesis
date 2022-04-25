@@ -10,7 +10,7 @@ resource "aws_kinesis_firehose_delivery_stream" "extended_s3_stream" {
     buffer_interval = 60
 
     cloudwatch_logging_options {
-      enabled = True
+      enabled = true
       log_group_name = aws_cloudwatch_log_group.firehose.name
       log_stream_name = aws_cloudwatch_log_stream.firehose.name
     }
