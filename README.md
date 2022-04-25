@@ -1,1 +1,1 @@
-#AWS Lakehouse with Delta Lake 
+#AWS Data Stream With Kinesis
