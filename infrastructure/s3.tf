@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "dl" {
 }
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "stream-test-bucket"
+  bucket = "stream-test-bucket-tf"
 
   tags = {
     job = "stream_bucket"
